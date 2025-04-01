@@ -1,0 +1,18 @@
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  align-self: stretch;
+}
+.filterButton {
+  height: 32px;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #f3f4f6;
+  border: #f3f4f6 solid 0.5px;
+  font-size: 12px;
+  font-weight: 400;
+}
