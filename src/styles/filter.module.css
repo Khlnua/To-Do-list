@@ -16,3 +16,7 @@
   font-size: 12px;
   font-weight: 400;
 }
+.filterButton:focus {
+  background-color: #3c82f6;
+  color: #f3f4f6;
+}

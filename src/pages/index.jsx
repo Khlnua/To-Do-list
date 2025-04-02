@@ -1,17 +1,12 @@
-import { useState } from "react";
-import { CreateTask } from "@/components/CreateTask";
-import { Filter } from "@/components/Filter";
+import { Tasks } from "@/components/Tasks";
 
-const Page = () => {
-  const [tasks, setTasks] = useState([]);
-
+const ToDo = () => {
   return (
     <div className="container">
-      <p className="title">To-Do List</p>
-      <CreateTask tasks={tasks} setTasks={setTasks} />
-      <Filter />
+      <h1 className="title">To-Do list</h1>
+      <Tasks />
     </div>
   );
 };
 
-export default Page;
+export default ToDo;
